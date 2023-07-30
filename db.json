@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "user_id": "f2c0641a-3277-47e0-9142-95b83b45c18d",
+            "email": "rahul@xyz.com",
+            "password": "123456",
+            "expense": {
+                "personal": [],
+                "group": []
+            }
+        },
+        {
+            "user_id": "ca826bf0-af90-4cf4-a402-5ff94808213d",
+            "email": "aditya@xyz.com",
+            "password": "123456",
+            "expense": {
+                "personal": [],
+                "group": []
+            }
+        },
+        {
+            "user_id": "4849c614-758c-4d34-a174-5e1eff5feef9",
+            "email": "anuska@xyz.com",
+            "password": "123456",
+            "expense": {
+                "personal": [],
+                "group": []
+            }
+        }
+    ],
+    "groups": [
+        {
+            "group_admin": "ca826bf0-af90-4cf4-a402-5ff94808213d",
+            "group_id": "74d374cb-b5d6-492c-af6c-519a07289b93",
+            "group_name": "Road Trip",
+            "members": [
+                "rahul@xyz.com",
+                "anuska@xyz.com"
+            ],
+            "expense": [
+                {
+                    "title": "Fuel Cost",
+                    "amount": "4500",
+                    "f2c0641a-3277-47e0-9142-95b83b45c18d": 1125.0,
+                    "4849c614-758c-4d34-a174-5e1eff5feef9": 1125.0
+                }
+            ]
+        }
+    ]
+}
